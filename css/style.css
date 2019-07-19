@@ -106,6 +106,7 @@ h3 {
 
 .project {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     margin-top: 4vmin;
     padding-bottom: 4vmin;
@@ -171,3 +172,10 @@ footer img {
     border: none;
     padding: 3vmin;
 }
+
+/* @media only screen and (min-width: 768px) {
+    .project {
+        display: flex;
+        flex-direction: column;
+    }
+} */
