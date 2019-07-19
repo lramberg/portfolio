@@ -1,0 +1,173 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.3;
+    color: rgb(31, 12, 22);
+    background-color: rgb(249, 241, 254);
+}
+
+header {
+    background: url('https://i.imgur.com/1apGOyz.jpg');
+    background-size: cover;
+    font-family: 'Lobster', cursive;
+    border-bottom: 2px solid rgb(47, 35, 72);
+}
+
+.header-wrapper {
+    background-color: rgba(47, 35, 72, 0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 13vmin;
+    color: rgb(241, 255, 238);
+    margin-left: 5vmin;
+    padding: 3vmin;
+}
+
+header h2 {
+    font-size: 10vmin;
+    color: rgb(241, 255, 238);
+    margin-left: 5vmin;
+    padding: 3vmin;
+}
+
+.nav {
+    text-align: right;
+    color: rgb(241, 255, 238);
+}
+
+.nav a {
+    color: rgb(241, 255, 238);
+    font-size: 6vmin;
+    margin: 3vmin;
+}
+
+.about {
+    background-color: rgb(241, 255, 238);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(3, 26, 14);
+    border-bottom: 2px solid rgb(47, 35, 72);
+}
+
+img {
+    height: 50vmin;
+    width: 75vmin;
+    border: 10px solid white;
+    margin: 3vmin;
+}
+
+.brand-statement {
+    width: 70vw;
+    font-size: 3vmin;
+    margin-top: 4vmin;
+    line-height: 1.2;
+    margin-bottom: 4vmin;
+}
+
+h3 {
+    text-decoration: underline;
+    font-size: 4vmin;
+    margin-bottom: 4vmin;
+}
+
+.skills {
+    width: 80vw;
+    text-align: center;
+    margin-bottom: 5vmin;
+}
+
+.project-nav a {
+    font-size: 4vmin;
+    color: rgb(31, 12, 22);
+    padding: 3vmin;
+}
+
+.projects {
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.projects h1 {
+    font-family: 'Lobster', cursive;
+    text-decoration: underline;
+    color: rgb(17, 46, 31);
+    padding: 3vmin;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    margin-top: 4vmin;
+    padding-bottom: 4vmin;
+}
+
+.description {
+    text-align: left;
+    padding: 3vmin;
+}
+
+.description h2 {
+    font-size: 5vmin;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 3vmin;
+}
+
+.description p {
+    font-size: 3vmin;
+    margin-bottom: 3vmin;
+}
+
+.description a {
+    font-size: 3vmin;
+    text-decoration: none;
+    background-color: rgba(88, 102, 98, .8);
+    padding: 2vmin;
+    color: white;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+h4 {
+    font-size: 4vmin;
+    text-decoration: underline;
+    margin-bottom: 2vmin;
+}
+
+footer {
+    background: url('https://i.imgur.com/1apGOyz.jpg');
+    background-size: cover;
+    font-size: 6vmin;
+    padding: 2vmin;
+    text-align: center;
+    color: rgb(241, 255, 238);
+}
+
+.footer-wrapper {
+    background-color: rgba(47, 35, 72, 0.6);
+    width: 100%;
+}
+
+h5 {
+    font-family: 'Lobster', cursive;
+    font-size: 8vmin;
+    text-decoration: underline;
+    padding: 3vmin;
+}
+
+footer img {
+    width: 15vmin;
+    height: 15vmin;
+    border: none;
+    padding: 3vmin;
+}
